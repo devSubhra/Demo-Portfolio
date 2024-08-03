@@ -1,0 +1,24 @@
+@media (max-width: 768px) {
+    .navbar-menu {
+      flex-direction: column;
+      display: none;
+      width: 100%;
+      text-align: center;
+    }
+    .navbar-menu.active {
+      display: flex;
+    }
+    .navbar-toggle {
+      display: block;
+    }
+  }
+ /* Example media query for tablets and smaller screens */
+@media (max-width: 991.98px) {
+    .hero-img-wrap {
+      width: 100%; /* Adjust image width to fit smaller screens */
+    }
+    .text-xl {
+      font-size: 1.5rem; /* Adjust font size for smaller screens */
+    }
+  }
+  

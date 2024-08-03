@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navbar with Logo and Links</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link href="styles.css" rel="stylesheet">
+  <!-- Bootstrap JS (optional if you need JavaScript features) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://use.fontawesome.com/03f8a0ebd4.js"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+
+
+</head>
+
+
+<body>
+  <div class="flex justify-center bg-blue-900 text-white">
+    <nav class="self-center w-full max-w-7xl">
+      <div class="flex md:flex-row flex-col justify-between items-center md:items-start">
+        <img src="images/R (1).png" alt="Logo" class="logo" style="width: 100px" />
+        <!-- Replace with your logo -->
+        <ul class="flex justify-center my-4 items-center text-sm md:text-[18px] font-bold md:px-10">
+          <li class="py-2 px-3 md:px-5 rounded-full transition duration-300 hover:bg-white hover:text-blue-900">
+            <a href="index.html">Home</a>
+          </li>
+          <li class="py-2 px-3 md:px-5 rounded-full transition duration-300 hover:bg-white hover:text-blue-900">
+            <a href="About.html">About</a>
+          </li>
+          <li class="py-2 px-3 md:px-5 rounded-full transition duration-300 hover:bg-white hover:text-blue-900">
+            <a href="technicalskills.html">Technical Skills</a>
+          </li>
+          <li class="py-2 px-3 md:px-5 rounded-full transition duration-300 hover:bg-white hover:text-blue-900">
+            <a href="Registration.html">connect with me</a>
+          </li>
+          <li class="py-2 px-3 md:px-5 rounded-full transition duration-300 hover:bg-white hover:text-blue-900">
+            <a href="contact us .html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+  <!-- Start Hero Section -->
+  <div class="hero">
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-lg-5">
+          <div class="intro-excerpt">
+            <h1><span style="color: aqua;">BIO</span></h1>
+            <p class="mb-4">I am a CSE graduate from Gandhi Institute for Technological Advancement (GITA) with one year
+              of professional experience in frontend development and graphic design. At Hirepre Technology, I honed my
+              skills in designing visually appealing and user-friendly using HTML,CSS,JAVASCRIPT,BOOTSTRAP. I have
+              leveraged tools like Adobe Illustrator and Figma to bring creative concepts (UX/UI)
+
+              Currently, I am expanding my technical expertise by learning Python, aiming to broaden my skill set for
+              future opportunities in software development and data analysis.
+            </p>
+            </p>
+            <p><a href="technicalskills.html" class="btn btn-white-outline">Read More</a></p>
+          </div>
+        </div>
+        <div class="col-lg-7">
+          <div class="hero-img-wrap" style="width:50%">
+            <img src="images\IMG_20220414_224640.jpg" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Hero Section -->
+
+
+
+  <!-- Start Why Choose Us Section -->
+  <div class="why-choose-section">
+    <div class="container">
+      <div class="row justify-content-between align-items-center">
+        <div class="col-lg-6">
+          <h2 class="section-title">Choose Me</h2>
+          <p>I bring valuable experience in HTML, CSS, JavaScript, and Bootstrap, with a proven track record of creating
+            responsive and visually appealing web applications. My attention to detail and proficiency in front-end
+            development enable me to craft user-friendly interfaces that enhance user experience and meet project
+            objectives effectively. I am enthusiastic about leveraging my skills and contributing to innovative web
+            projects with a focus on quality and creativity.</p>
+
+          <div class="row my-5">
+            <div class="col-6 col-md-6">
+              <div class="feature">
+                <div class="icon">
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 384 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                    <path
+                      d="M0 32l34.9 395.8L191.5 480l157.6-52.2L384 32H0zm308.2 127.9H124.4l4.1 49.4h175.6l-13.6 148.4-97.9 27v.3h-1.1l-98.7-27.3-6-75.8h47.7L138 320l53.5 14.5 53.7-14.5 6-62.2H84.3L71.5 112.2h241.1l-4.4 47.7z" />
+                  </svg><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                  <path
+                    d="M48 0C21.5 0 0 21.5 0 48V368c0 26.5 21.5 48 48 48H64c0 53 43 96 96 96s96-43 96-96H384c0 53 43 96 96 96s96-43 96-96h32c17.7 0 32-14.3 32-32s-14.3-32-32-32V288 256 237.3c0-17-6.7-33.3-18.7-45.3L512 114.7c-12-12-28.3-18.7-45.3-18.7H416V48c0-26.5-21.5-48-48-48H48zM416 160h50.7L544 237.3V256H416V160zM112 416a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm368-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z" />
+                  </svg>
+                </div>
+                <h3>HTML</h3>
+                <p>HTML (HyperText Markup Language) is the standard markup language for creating web pages.</p>
+              </div>
+            </div>
+
+            <div class="col-6 col-md-6">
+              <div class="feature">
+                <div class="icon">
+                  <!-- <img src="images/bag.svg" alt="Image" class="imf-fluid"> -->
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                    <path
+                      d="M480 32l-64 368-223.3 80L0 400l19.6-94.8h82l-8 40.6L210 390.2l134.1-44.4 18.8-97.1H29.5l16-82h333.7l10.5-52.7H56.3l16.3-82H480z" />
+                  </svg><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                  <path
+                    d="M160 112c0-35.3 28.7-64 64-64s64 28.7 64 64v48H160V112zm-48 48H48c-26.5 0-48 21.5-48 48V416c0 53 43 96 96 96H352c53 0 96-43 96-96V208c0-26.5-21.5-48-48-48H336V112C336 50.1 285.9 0 224 0S112 50.1 112 112v48zm24 48a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm152 24a24 24 0 1 1 48 0 24 24 0 1 1 -48 0z" />
+                  </svg>
+                </div>
+                <h3>CSS</h3>
+                <p>CSS (Cascading Style Sheets) is a language used to describe the presentation of a document written in
+                  HTML or XML, including aspects like layout, colors, and fonts.</p>
+              </div>
+            </div>
+
+            <div class="col-6 col-md-6">
+              <div class="feature">
+                <div class="icon">
+                  <!-- <img src="images/support.svg" alt="Image" class="imf-fluid"> -->
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                    <path
+                      d="M418.2 177.2c-5.4-1.8-10.8-3.5-16.2-5.1 .9-3.7 1.7-7.4 2.5-11.1 12.3-59.6 4.2-107.5-23.1-123.3-26.3-15.1-69.2 .6-112.6 38.4-4.3 3.7-8.5 7.6-12.5 11.5-2.7-2.6-5.5-5.2-8.3-7.7-45.5-40.4-91.1-57.4-118.4-41.5-26.2 15.2-34 60.3-23 116.7 1.1 5.6 2.3 11.1 3.7 16.7-6.4 1.8-12.7 3.8-18.6 5.9C38.3 196.2 0 225.4 0 255.6c0 31.2 40.8 62.5 96.3 81.5 4.5 1.5 9 3 13.6 4.3-1.5 6-2.8 11.9-4 18-10.5 55.5-2.3 99.5 23.9 114.6 27 15.6 72.4-.4 116.6-39.1 3.5-3.1 7-6.3 10.5-9.7 4.4 4.3 9 8.4 13.6 12.4 42.8 36.8 85.1 51.7 111.2 36.6 27-15.6 35.8-62.9 24.4-120.5-.9-4.4-1.9-8.9-3-13.5 3.2-.9 6.3-1.9 9.4-2.9 57.7-19.1 99.5-50 99.5-81.7 0-30.3-39.4-59.7-93.8-78.4zM282.9 92.3c37.2-32.4 71.9-45.1 87.7-36 16.9 9.7 23.4 48.9 12.8 100.4-.7 3.4-1.4 6.7-2.3 10-22.2-5-44.7-8.6-67.3-10.6-13-18.6-27.2-36.4-42.6-53.1 3.9-3.7 7.7-7.2 11.7-10.7zM167.2 307.5c5.1 8.7 10.3 17.4 15.8 25.9-15.6-1.7-31.1-4.2-46.4-7.5 4.4-14.4 9.9-29.3 16.3-44.5 4.6 8.8 9.3 17.5 14.3 26.1zm-30.3-120.3c14.4-3.2 29.7-5.8 45.6-7.8-5.3 8.3-10.5 16.8-15.4 25.4-4.9 8.5-9.7 17.2-14.2 26-6.3-14.9-11.6-29.5-16-43.6zm27.4 68.9c6.6-13.8 13.8-27.3 21.4-40.6s15.8-26.2 24.4-38.9c15-1.1 30.3-1.7 45.9-1.7s31 .6 45.9 1.7c8.5 12.6 16.6 25.5 24.3 38.7s14.9 26.7 21.7 40.4c-6.7 13.8-13.9 27.4-21.6 40.8-7.6 13.3-15.7 26.2-24.2 39-14.9 1.1-30.4 1.6-46.1 1.6s-30.9-.5-45.6-1.4c-8.7-12.7-16.9-25.7-24.6-39s-14.8-26.8-21.5-40.6zm180.6 51.2c5.1-8.8 9.9-17.7 14.6-26.7 6.4 14.5 12 29.2 16.9 44.3-15.5 3.5-31.2 6.2-47 8 5.4-8.4 10.5-17 15.5-25.6zm14.4-76.5c-4.7-8.8-9.5-17.6-14.5-26.2-4.9-8.5-10-16.9-15.3-25.2 16.1 2 31.5 4.7 45.9 8-4.6 14.8-10 29.2-16.1 43.4zM256.2 118.3c10.5 11.4 20.4 23.4 29.6 35.8-19.8-.9-39.7-.9-59.5 0 9.8-12.9 19.9-24.9 29.9-35.8zM140.2 57c16.8-9.8 54.1 4.2 93.4 39 2.5 2.2 5 4.6 7.6 7-15.5 16.7-29.8 34.5-42.9 53.1-22.6 2-45 5.5-67.2 10.4-1.3-5.1-2.4-10.3-3.5-15.5-9.4-48.4-3.2-84.9 12.6-94zm-24.5 263.6c-4.2-1.2-8.3-2.5-12.4-3.9-21.3-6.7-45.5-17.3-63-31.2-10.1-7-16.9-17.8-18.8-29.9 0-18.3 31.6-41.7 77.2-57.6 5.7-2 11.5-3.8 17.3-5.5 6.8 21.7 15 43 24.5 63.6-9.6 20.9-17.9 42.5-24.8 64.5zm116.6 98c-16.5 15.1-35.6 27.1-56.4 35.3-11.1 5.3-23.9 5.8-35.3 1.3-15.9-9.2-22.5-44.5-13.5-92 1.1-5.6 2.3-11.2 3.7-16.7 22.4 4.8 45 8.1 67.9 9.8 13.2 18.7 27.7 36.6 43.2 53.4-3.2 3.1-6.4 6.1-9.6 8.9zm24.5-24.3c-10.2-11-20.4-23.2-30.3-36.3 9.6 .4 19.5 .6 29.5 .6 10.3 0 20.4-.2 30.4-.7-9.2 12.7-19.1 24.8-29.6 36.4zm130.7 30c-.9 12.2-6.9 23.6-16.5 31.3-15.9 9.2-49.8-2.8-86.4-34.2-4.2-3.6-8.4-7.5-12.7-11.5 15.3-16.9 29.4-34.8 42.2-53.6 22.9-1.9 45.7-5.4 68.2-10.5 1 4.1 1.9 8.2 2.7 12.2 4.9 21.6 5.7 44.1 2.5 66.3zm18.2-107.5c-2.8 .9-5.6 1.8-8.5 2.6-7-21.8-15.6-43.1-25.5-63.8 9.6-20.4 17.7-41.4 24.5-62.9 5.2 1.5 10.2 3.1 15 4.7 46.6 16 79.3 39.8 79.3 58 0 19.6-34.9 44.9-84.8 61.4zm-149.7-15c25.3 0 45.8-20.5 45.8-45.8s-20.5-45.8-45.8-45.8c-25.3 0-45.8 20.5-45.8 45.8s20.5 45.8 45.8 45.8z" />
+                  </svg><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                  <path
+                    d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z" />
+                  </svg>
+                </div>
+                <h3>REACT.JS</h3>
+                <p>React.js is a JavaScript library used for building user interfaces, developed and maintained by
+                  Facebook. It allows developers to create reusable UI components and manage their state efficiently.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-6 col-md-6">
+              <div class="feature">
+                <div class="icon">
+                  <!-- <img src="images/return.svg" alt="Image" class="imf-fluid"> -->
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                    <path
+                      d="M481 31C445.1-4.8 386.9-4.8 351 31l-15 15L322.9 33C294.8 4.9 249.2 4.9 221.1 33L135 119c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0L255 66.9c9.4-9.4 24.6-9.4 33.9 0L302.1 80 186.3 195.7 316.3 325.7 481 161c35.9-35.9 35.9-94.1 0-129.9zM293.7 348.3L163.7 218.3 99.5 282.5c-48 48-80.8 109.2-94.1 175.8l-5 25c-1.6 7.9 .9 16 6.6 21.7s13.8 8.1 21.7 6.6l25-5c66.6-13.3 127.8-46.1 175.8-94.1l64.2-64.2z" />
+                  </svg><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                  <path
+                    d="M438.6 150.6c12.5-12.5 12.5-32.8 0-45.3l-96-96c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.7 96 32 96C14.3 96 0 110.3 0 128s14.3 32 32 32l306.7 0-41.4 41.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l96-96zm-333.3 352c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 416 416 416c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0 41.4-41.4c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-96 96c-12.5 12.5-12.5 32.8 0 45.3l96 96z" />
+                  </svg>
+                </div>
+                <h3>UI/UX</h3>
+                <p>UX (User Experience) focuses on overall user satisfaction and functionality, while UI (User
+                  Interface) design centers on the visual and interactive elements of digital interfaces.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="col-lg-5">
+          <div class="img-wrap">
+            <img src="images/woman-working-on-laptop-2.gif" alt="Image" class="img-fluid rounded-img">
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+  <!-- End Why Choose Us Section -->
+
+  <!-- Start Team Section -->
+  <div class="untree_co-section">
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col-lg-5 mx-auto text-center">
+          <h2 class="section-title">MY PROFILE</h2>
+        </div>
+      </div>
+
+      <div class="row">
+        <!-- Start Column 1 -->
+        <div class="col-12 col-md-6 col-lg-4 mb-5 mb-md-0">
+          <div class="team-member">
+            <img src="images\Screenshot 2024-06-29 004947.png" class="img-fluid mb-3">
+            <h3><a href="#"><span>WORK</span> HISTORY</a></h3>
+            <span class="d-block position mb-4">FRONTEND</span>
+            <p>ATS (Applicant Tracking System) is software that automates and manages the hiring process, helping
+              employers streamline recruitment tasks and efficiently screen candidates based on specified criteria</p>
+            <p class="mb-0"><a href="#" class="more dark">Learn More <span class="icon-arrow_forward"></span></a></p>
+          </div>
+        </div>
+        <!-- End Column 1 -->
+
+        <!-- Start Column 2 -->
+        <div class="col-12 col-md-6 col-lg-4 mb-5 mb-md-0">
+          <div class="team-member">
+            <img src="images\colorful-educaction-concept-with-isometric-view-generative-ai-photo.jpeg" class="img-fluid mb-3">
+            <h3><a href="#"><span>EDUCATION</span> </a></h3>
+            <span class="d-block position mb-4">CRAITERIA</span>
+            <p>my completion of MY B.Tech in Computer Science Engineering& my Diploma in Computer Science
+              Engineering from Nilachala Polytechnic IN BHUBANESWAR .And schooling in ssvm</p>
+            <p class="mb-0"><a href="#" class="more dark">Learn More <span class="icon-arrow_forward"></span></a></p>
+          </div>
+        </div>
+        <!-- End Column 2 -->
+
+        <!-- Start Column 3 -->
+        <div class="col-12 col-md-6 col-lg-4 mb-5 mb-md-0" style="height: 50%;">
+          <div class="team-member">
+            <img src="images\Screenshot 2024-06-29 220021.png" class="img-fluid mb-3">
+            <h3><a href="#"><span>MY</span>INTEREST</a></h3>
+            <span class="d-block position mb-4">HOBBIES</span>
+            <p>User's interests include singing, watching movies across various genres, traveling to new places, listening to a variety of music, and sketching</p>
+            <p class="mb-0"><a href="#" class="more dark">Learn More <span class="icon-arrow_forward"></span></a></p>
+          </div>
+        </div>
+        <!-- End Column 3 -->
+
+
+      </div>
+    </div>
+  </div>
+  <!-- End Team Section -->
+
+
+
+<!-- footer -->
+<div class="flex items-center justify-center">
+  <div class="m-2 max-w-5xl items-center">
+    <div class="flex flex-col items-center">
+      <img class="flex m-1" src="images/R (1).png" />
+      <div class="m-2">
+        <a href="#"
+          class="w-9 h-10 text-center border-current border-2 text-violet-600 hover:text-black pt-1 inline-block"><i
+            class="fa fa-instagram m-2"></i></a>
+        <a href="#"
+          class="w-9 h-10 text-center border-current border-2 text-blue-600 hover:text-black pt-1 inline-block"><i
+            class="fa fa-twitter m-2"></i></a>
+        <a href="#"
+          class="w-9 h-10 text-center border-current border-2 text-rose-600 hover:text-black pt-1 inline-block"><i
+            class="fa fa-facebook m-2"></i></a>
+        <a href="#"
+          class="w-9 h-10 text-center border-current border-2 text-red-600 hover:text-black pt-1 inline-block"><i
+            class="fa fa-whatsapp m-2"></i></a>
+        <a href="#"
+          class="w-9 h-10 text-center border-current border-2 text-orange-600 hover:text-black pt-1 inline-block"><i
+            class="fa fa-quora m-2"></i></a>
+      </div>
+      <div class="flex md:flex-row flex-col">
+        <p class="hover:text-blue-600 text-gray-500 font-medium m-2">
+          <a href="home">Home</a>
+        </p>
+        <p class="hover:text-blue-600 text-gray-500 font-medium m-2">
+          <a href="About.html">About  </a>
+        </p>
+        <p class="hover:text-blue-600 text-gray-500 font-medium m-2">
+          <a href="technicalskills.html">technicalskills</a>
+        </p>
+        <p class="hover:text-blue-600 text-gray-500 font-medium m-2">
+          <a href="contact us .html">Contact me </a>
+        </p>
+        <p class="hover:text-blue-600 text-gray-500 font-medium m-2">
+          <a href="#"> Privacy Policy </a>
+        </p>
+      </div>
+      <div class="text-gray-500 font-medium mt-4 text-xs">
+        Copyright 2024. All rights reserved by
+        <a href="#" class="text-blue-600">Tailwind CSS</a>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,1251 @@
+
+  .registration-form {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ced4da;
+    border-radius: 10px;
+    background-color: #fff;
+    box-sizing: border-box; /* Added border-box model */
+    
+  }
+  
+  img{
+    width:100px;
+  }
+
+  .card {
+    border: none;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; /* Add margin-bottom to create gap between the boxes */
+  }
+  /* Reset some default styles */
+/* body, h1, h2, h3, h4, h5, h6, p, ul, ol {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+} */
+
+/* Utility Classes */
+.container {
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+
+.col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-4, .col-lg-3, .col-md-6, .col-12 {
+  padding: 0 15px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-lg-start {
+  text-align: left;
+}
+
+.text-lg-end {
+  text-align: right;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.me-2 {
+  margin-right: 0.5rem;
+}
+
+.mb-4 {
+  margin-bottom: 1.5rem;
+}
+
+.mb-5 {
+  margin-bottom: 2rem;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #f8f9fa;
+  padding: 60px 0;
+}
+
+.hero .intro-excerpt {
+  padding: 30px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.125rem;
+  line-height: 1.6;
+}
+
+.hero .btn {
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.hero .btn-secondary {
+  background-color: #6c757d;
+  color: #fff;
+  border: none;
+}
+
+.hero .btn-white-outline {
+  background-color: transparent;
+  color: #6c757d;
+  border: 2px solid #6c757d;
+}
+
+.hero .hero-img-wrap {
+  text-align: center;
+}
+
+.hero .hero-img-wrap img {
+  max-width: 100% ;
+  height: auto;
+}
+
+/* Why Choose Us Section */
+.why-choose-section {
+  padding: 60px 0;
+  background-color: #fff;
+}
+
+.why-choose-section .section-title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.why-choose-section .feature {
+  text-align: center;
+}
+
+.why-choose-section .feature .icon {
+  width: 50px;
+  height: 50px;
+  margin: 0 auto 15px;
+}
+
+.why-choose-section .feature img {
+  max-width: 100%;
+  height: auto;
+}
+
+.why-choose-section .feature h3 {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+}
+
+.why-choose-section .feature p {
+  font-size: 1rem;
+  color: #666;
+}
+
+.why-choose-section .img-wrap img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Team Section */
+.untree_co-section {
+  padding: 60px 0;
+  background-color: #f8f9fa;
+}
+
+.untree_co-section .section-title {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+.untree_co-section img {
+  max-width: 100%;
+  height: auto;
+}
+
+.untree_co-section h3 {
+  font-size: 1.25rem;
+  margin: 15px 0 10px;
+}
+
+.untree_co-section .position {
+  font-size: 0.875rem;
+  color: #777;
+}
+
+.untree_co-section p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.untree_co-section .more {
+  font-size: 1rem;
+  color: #007bff;
+}
+
+/* Testimonials */
+.testimonial-section {
+  padding: 60px 0;
+  background-color: #fff;
+}
+
+.testimonial-section .section-title {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+.carouselslide-wrap {
+  position: relative;
+}
+
+.carouselslide {
+  display: flex;
+  overflow: hidden;
+}
+
+.carouselslide .carousel-itemactive{
+  flex: 0 0 100%;
+  max-width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.carouselslide .testimonial-block {
+  background-color: #f8f9fa;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.carouselslide blockquote {
+  font-size: 1.125rem;
+  line-height: 1.6;
+  color: #666;
+  margin: 0 0 20px;
+}
+
+.carouselslide .author-info {
+  text-align: center;
+}
+
+.carouselslide .author-pic img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.carouselslide .author-info h3 {
+  font-size: 1.25rem;
+  margin: 0;
+}
+
+.carouselslide .position {
+  font-size: 0.875rem;
+  color: #777;
+}
+
+#testimonial-nav {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+}
+
+#testimonial-nav span {
+  background-color: #333;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+
+.img-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 100%; /* Ensure full container width */
+}
+
+.img-wrap img {
+  width: 100%; /* Take full width of container */
+  max-width: 400px; /* Limit max width */
+  height: auto;
+  border-radius: 50%; /* Make the image circular */
+  object-fit: cover; /* Ensure image covers the circular area */
+  border: 5px solid #fff; /* Optional: Add a border */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Add a shadow */
+}
+.hero-img-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 100%; /* Ensure full container width */
+}
+
+.hero-img-wrap img {
+  width: 100%; /* Take full width of container */
+  max-width: 800px; /* Limit maximum width */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 20px; /* Optional: Rounded corners for rectangle */
+  object-fit: cover; /* Ensure image covers the rectangular area */
+  border: 3px solid #ddd; /* Optional: Add a border */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Add a shadow */
+}
+/* General Team Section Styles */
+.untree_co-section {
+  padding: 60px 0;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+/* Team Member Styles */
+.team-member {
+  text-align: center;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team-member:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.team-member img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.team-member h3 {
+  font-size: 1.25rem;
+  margin: 15px 0 10px;
+  font-weight: 600;
+  color: #333;
+}
+
+.team-member h3 a {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.team-member h3 a:hover {
+  color: #007bff;
+}
+
+.team-member .position {
+  font-size: 0.9rem;
+  color: #999;
+}
+
+.team-member p {
+  font-size: 0.95rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.team-member .more {
+  font-size: 0.9rem;
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.team-member .more:hover {
+  color: #0056b3;
+}
+
+.icon-arrow_forward {
+  font-size: 1rem;
+  margin-left: 5px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 767px) {
+  .team-member {
+      margin-bottom: 30px;
+  }
+}
+/* Product Section Styles */
+.product-section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #f8f9fa;
+}
+
+.section-title {
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.product-item {
+  position: relative;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: #333;
+  transition: transform 0.3s ease;
+}
+
+.product-item:hover {
+  transform: translateY(-10px);
+}
+
+.product-thumbnail {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-item:hover .product-thumbnail {
+  transform: scale(1.05);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.product-title {
+  font-size: 1.25rem;
+  margin-top: 15px;
+  font-weight: 500;
+  color: #555;
+}
+
+.product-price {
+  display: block;
+  margin-top: 10px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #000;
+}
+
+.icon-cross {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 25px;
+  height: 25px;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background 0.3s ease;
+}
+
+.icon-cross img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.product-item:hover .icon-cross {
+  background: #ff6f61;
+}
+
+.product-item:hover .icon-cross img {
+  filter: invert(1);
+}
+
+/* Button Styles */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #fff;
+  background-color: #ff6f61;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  text-align: center;
+}
+
+.btn:hover {
+  background-color: #ff3e30;
+  transform: translateY(-2px);
+}
+
+/* Product Section Styles */
+.product-section {
+  padding: 80px 0;
+  background-color: #f8f9fa;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.product-item {
+  position: relative;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: #333;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #fff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+}
+
+.product-thumbnail {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.product-item:hover .product-thumbnail {
+  transform: scale(1.05);
+  filter: brightness(0.95);
+}
+
+.product-title {
+  font-size: 1.25rem;
+  margin: 15px 0 10px;
+  font-weight: 600;
+  color: #555;
+}
+
+.product-price {
+  display: block;
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #000;
+}
+
+.icon-cross {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 30px;
+  height: 30px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.3s ease;
+}
+
+.icon-cross img {
+  width: 60%;
+  height: 60%;
+}
+
+.product-item:hover .icon-cross {
+  background: #ff6f61;
+}
+
+.product-item:hover .icon-cross img {
+  filter: invert(1);
+}
+
+/* Button Styles */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #fff;
+  background-color: #ff6f61;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  text-align: center;
+}
+
+.btn:hover {
+  background-color: #30ff8d;
+  transform: translateY(-2px);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 992px) {
+  .product-item {
+      margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 576px) {
+  .section-title {
+      font-size: 1.5rem;
+  }
+
+  .product-title {
+      font-size: 1rem;
+  }
+
+  .product-price {
+      font-size: 1rem;
+  }
+}
+
+/* Hero Image Wrap Styles */
+.hero-img-wrap {
+  position: relative;
+  overflow: hidden;
+  border-radius: 15px; /* Adjust as needed for rounded corners */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Soft shadow around the image */
+  background: #fff; /* Background color for contrast */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hero-img-wrap img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px; /* Match border-radius of .hero-img-wrap */
+  transition: transform 0.3s ease, filter 0.3s ease;
+  object-fit: cover; /* Ensures the image covers the area while maintaining aspect ratio */
+}
+
+/* Hover Effects */
+.hero-img-wrap:hover {
+  transform: translateY(-5px); /* Slight elevation effect */
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+.hero-img-wrap:hover img {
+  transform: scale(1.05); /* Slight zoom effect */
+  filter: brightness(0.95); /* Darkens the image a bit for focus effect */
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 992px) {
+  .hero-img-wrap {
+      border-radius: 10px; /* Smaller radius for smaller screens */
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-img-wrap {
+      border-radius: 8px; /* Further reduce for very small screens */
+  }
+
+  .hero-img-wrap img {
+      border-radius: 8px; /* Match with .hero-img-wrap */
+  }
+}
+/* Container for the image grid */
+.imgs-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px; /* Space between images */
+  position: relative;
+  transform: rotate(-3deg);
+}
+
+/* Base styles for each image in the grid */
+.imgs-grid .grid {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.imgs-grid .grid img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+/* Specific positioning for diagonal overlap */
+.imgs-grid .grid-1 {
+  transform: rotate(3deg) translateY(20%);
+  z-index: 2;
+}
+
+.imgs-grid .grid-2 {
+  transform: rotate(3deg) translateY(-10%);
+  z-index: 1;
+}
+
+.imgs-grid .grid-3 {
+  transform: rotate(3deg) translateY(-30%);
+  z-index: 3;
+}
+
+/* Hover effects */
+.imgs-grid .grid:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+}
+
+.imgs-grid .grid img:hover {
+  transform: scale(1.1);
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 992px) {
+  .imgs-grid {
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      transform: none;
+  }
+
+  .imgs-grid .grid-1, .imgs-grid .grid-2, .imgs-grid .grid-3 {
+      transform: none;
+      z-index: auto;
+  }
+}
+
+@media (max-width: 576px) {
+  .imgs-grid {
+      grid-template-columns: 1fr;
+      gap: 10px;
+  }
+
+  .imgs-grid .grid-1, .imgs-grid .grid-2, .imgs-grid .grid-3 {
+      transform: none;
+      z-index: auto;
+  }
+}
+/* Base styling for the popular-product section */
+.popular-product {
+  background-color: #f8f9fa; /* Light gray background */
+  padding: 60px 0; /* Vertical padding */
+}
+
+.popular-product .container {
+  max-width: 1200px; /* Container width */
+  margin: auto; /* Center the container */
+}
+
+/* Styling for each product item */
+.product-item-sm {
+  background-color: #fff; /* White background */
+  border-radius: 15px; /* Rounded corners */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  overflow: hidden; /* Clip overflowing content */
+  transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition */
+  padding: 20px; /* Inner padding */
+  display: flex; /* Flexbox for alignment */
+  align-items: center; /* Center content vertically */
+}
+
+.product-item-sm:hover {
+  transform: translateY(-5px); /* Lift on hover */
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15); /* Larger shadow on hover */
+}
+
+/* Styling for the thumbnail */
+.thumbnail {
+  flex-shrink: 0; /* Prevent shrinking */
+  margin-right: 15px; /* Space between thumbnail and text */
+  border-radius: 10px; /* Rounded corners for thumbnail */
+  overflow: hidden; /* Clip thumbnail overflow */
+}
+
+.thumbnail img {
+  width: 100px; /* Fixed width for images */
+  height: 100px; /* Fixed height for images */
+  object-fit: cover; /* Cover image inside thumbnail */
+  transition: transform 0.3s; /* Smooth transition for image */
+}
+
+.product-item-sm:hover .thumbnail img {
+  transform: scale(1.05); /* Slight zoom on hover */
+}
+
+/* Styling for product details */
+.product-item-sm .pt-3 {
+  flex-grow: 1; /* Allow text to grow */
+}
+
+.product-item-sm h3 {
+  font-size: 1.2rem; /* Title font size */
+  color: #333; /* Dark text color */
+  margin-bottom: 10px; /* Space below title */
+  font-weight: 600; /* Bold font weight */
+}
+
+.product-item-sm p {
+  font-size: 0.9rem; /* Paragraph font size */
+  color: #666; /* Medium-dark text color */
+  margin-bottom: 10px; /* Space below paragraph */
+  line-height: 1.4; /* Line height for readability */
+}
+
+.product-item-sm p a {
+  color: #ff6f61; /* Link color */
+  text-decoration: none; /* Remove underline */
+  font-weight: 600; /* Bold link */
+  transition: color 0.3s; /* Smooth transition */
+}
+
+.product-item-sm p a:hover {
+  color: #e65c50; /* Darker color on hover */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .product-item-sm {
+      flex-direction: column; /* Stack items vertically */
+      text-align: center; /* Center text */
+  }
+
+  .thumbnail {
+      margin: 0 auto 15px; /* Center thumbnail with bottom margin */
+  }
+}
+/* Base styling for the blog section */
+.blog-section {
+    background-color: #f9f9f9; /* Light gray background */
+    padding: 60px 0; /* Vertical padding */
+}
+
+.blog-section .container {
+    max-width: 1200px; /* Container width */
+    margin: auto; /* Center the container */
+}
+
+.section-title {
+    font-size: 2rem; /* Section title size */
+    font-weight: 600; /* Bold font weight */
+    color: #333; /* Dark text color */
+    margin-bottom: 30px; /* Space below title */
+}
+
+.more {
+    color: #ff6f61; /* Link color */
+    font-weight: 600; /* Bold link */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s; /* Smooth transition */
+}
+
+.more:hover {
+    color: #e65c50; /* Darker color on hover */
+}
+
+/* Styling for each post entry */
+.post-entry {
+    background-color: #fff; /* White background */
+    border-radius: 10px; /* Rounded corners */
+    overflow: hidden; /* Clip overflowing content */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition */
+}
+
+.post-entry:hover {
+    transform: translateY(-5px); /* Lift on hover */
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15); /* Larger shadow on hover */
+}
+
+/* Styling for post thumbnails */
+.post-thumbnail {
+    display: block; /* Block display for link */
+    overflow: hidden; /* Clip overflow */
+    border-bottom: 1px solid #f1f1f1; /* Border below thumbnail */
+}
+
+.post-thumbnail img {
+    width: 100%; /* Full width */
+    height: 200px; /* Fixed height */
+    object-fit: cover; /* Cover image */
+    transition: transform 0.3s, filter 0.3s; /* Smooth transition */
+}
+
+.post-entry:hover .post-thumbnail img {
+    transform: scale(1.1); /* Slight zoom on hover */
+    filter: brightness(0.9); /* Slight darken on hover */
+}
+
+/* Styling for post content */
+.post-content-entry {
+    padding: 20px; /* Inner padding */
+}
+
+.post-content-entry h3 {
+    font-size: 1.2rem; /* Title size */
+    font-weight: 600; /* Bold font weight */
+    color: #333; /* Dark text color */
+    margin-bottom: 10px; /* Space below title */
+}
+
+.post-content-entry h3 a {
+    color: #333; /* Dark text color */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s; /* Smooth transition */
+}
+
+.post-content-entry h3 a:hover {
+    color: #ff6f61; /* Link color on hover */
+}
+
+.meta {
+    font-size: 0.9rem; /* Meta text size */
+    color: #999; /* Gray text color */
+    display: flex; /* Flexbox for meta */
+    gap: 10px; /* Space between meta items */
+}
+
+.meta a {
+    color: #999; /* Meta link color */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s; /* Smooth transition */
+}
+
+.meta a:hover {
+    color: #ff6f61; /* Link color on hover */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .blog-section .container {
+        padding: 0 15px; /* Padding on smaller screens */
+    }
+
+    .post-thumbnail img {
+        height: auto; /* Auto height for images */
+    }
+}
+/* Base styling for post entries */
+.post-entry {
+  background-color: #fff; /* White background */
+  border-radius: 15px; /* Rounded corners */
+  overflow: hidden; /* Clip overflow */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition */
+  position: relative; /* For hover effects */
+}
+
+/* Hover effect for post entries */
+.post-entry:hover {
+  transform: translateY(-5px); /* Lift on hover */
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15), /* Primary shadow */
+              0 5px 15px rgba(0, 0, 0, 0.05); /* Secondary shadow */
+}
+
+/* Styling for post thumbnails */
+.post-thumbnail {
+  display: block; /* Block display for link */
+  overflow: hidden; /* Clip overflow */
+  border-bottom: none; /* No border for rounded effect */
+  border-radius: 15px 15px 0 0; /* Round top corners */
+}
+
+.post-thumbnail img {
+  width: 100%; /* Full width */
+  height: auto; /* Responsive height */
+  object-fit: cover; /* Cover image */
+  border-radius: 15px 15px 0 0; /* Round top corners */
+  transition: transform 0.3s, filter 0.3s; /* Smooth transition */
+}
+
+/* Hover effect for post thumbnails */
+.post-entry:hover .post-thumbnail img {
+  transform: scale(1.1); /* Slight zoom on hover */
+  filter: brightness(0.85); /* Slight darken on hover */
+}
+
+/* Styling for post content */
+.post-content-entry {
+  padding: 20px; /* Inner padding */
+  border-radius: 0 0 15px 15px; /* Round bottom corners */
+}
+
+.post-content-entry h3 {
+  font-size: 1.2rem; /* Title size */
+  font-weight: 600; /* Bold font weight */
+  color: #333; /* Dark text color */
+  margin-bottom: 10px; /* Space below title */
+  transition: color 0.3s; /* Smooth transition */
+}
+
+.post-content-entry h3 a {
+  color: #333; /* Dark text color */
+  text-decoration: none; /* Remove underline */
+  transition: color 0.3s; /* Smooth transition */
+}
+
+/* Hover effect for post titles */
+.post-entry:hover h3 a {
+  color: #ff6f61; /* Link color on hover */
+}
+
+/* Styling for meta info */
+.meta {
+  font-size: 0.9rem; /* Meta text size */
+  color: #999; /* Gray text color */
+  display: flex; /* Flexbox for meta */
+  gap: 10px; /* Space between meta items */
+}
+
+.meta a {
+  color: #999; /* Meta link color */
+  text-decoration: none; /* Remove underline */
+  transition: color 0.3s; /* Smooth transition */
+}
+
+/* Hover effect for meta links */
+.meta a:hover {
+  color: #ff6f61; /* Link color on hover */
+}
+
+/* Add shadow effect on hover for inner content */
+.post-entry:hover::before {
+  content: '';
+  position: absolute; /* Overlay */
+  top: 0; left: 0; right: 0; bottom: 0; /* Full overlay */
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15), /* Primary shadow */
+              0 5px 15px rgba(0, 0, 0, 0.05); /* Secondary shadow */
+  opacity: 0; /* Initial opacity */
+  transition: opacity 0.3s; /* Smooth transition */
+  border-radius: 15px; /* Ensure shadow follows rounded shape */
+}
+
+.post-entry:hover::before {
+  opacity: 1; /* Fully opaque on hover */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .post-thumbnail img {
+      height: auto; /* Auto height for images */
+  }
+}
+.contact-form {
+  background-color: #333;
+
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px blue(216, 213, 213, 0.1);
+  margin-bottom: 20px;
+}
+
+.contact-form h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #fffefe;
+}
+#registrationForm label{
+  color: #000;
+}
+.form-group label {
+  font-weight: bold;
+  color:whitesmoke;
+}
+
+.form-control {
+  border-radius: 5px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+/* Map container styling */
+.contact-map {
+  background: #ffffff;
+  padding: 0;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  height: 91%;
+}
+
+iframe {
+  border-radius: 10px;
+}
+
+/* Responsive design */
+@media (max-width: 767px) {
+  .contact-form, .contact-map {
+      margin-bottom: 20px;
+  }
+}
+/* Container for Alignment and Padding */
+.container {
+  padding: 2rem; /* Container padding */
+}
+
+/* Section Title */
+.section-title {
+  font-size: 2.5rem; /* Larger font size */
+  font-weight: 700; /* Bold text */
+  color: #333; 
+  margin-bottom: 1.5rem; /* Space below the title */
+  text-transform: uppercase; /* Uppercase text */
+  letter-spacing: 0.05rem; /* Letter spacing */
+  border-bottom: 2px solid #ff6347; /* Bottom border */
+  padding-bottom: 0.5rem; /* Padding for bottom border */
+  position: relative; /* For ::after pseudo-element */
+}
+
+.section-title::after {
+  content: ''; /* Decorative line */
+  position: absolute;
+  left: 0;
+  bottom: -0.3rem;
+  width: 50px; /* Line width */
+  height: 4px; /* Line height */
+  background-color: #ff6347; /* Line color */
+}
+
+/* Paragraph */
+p {
+  font-size: 1rem; /* Standard font size */
+  
+  line-height: 1.8; /* Increased line spacing for readability */
+  margin-bottom: 1.5rem; /* Space below paragraphs */
+  text-align: justify; /* Justify text alignment */
+}
+
+/* Custom List */
+ul.custom-list {
+  padding-left: 1.5rem; /* Indentation for the list */
+  list-style-type: none; /* Remove default bullets */
+}
+
+ul.custom-list li {
+  margin-bottom: 0.75rem; /* Space between list items */
+  position: relative; /* Position to allow custom bullet */
+}
+
+ul.custom-list li::before {
+  content: '\2022'; /* Unicode bullet character */
+  color: #ff6347; /* Bullet color */
+  position: absolute; /* Positioning the bullet */
+  left: -1.5rem; /* Adjust distance from text */
+  font-size: 1.5rem; /* Bullet size */
+  line-height: 1; /* Align bullet vertically */
+}
+
+/* Button */
+a.btn {
+  display: inline-block; /* Button styling */
+  padding: 0.75rem 1.5rem; /* Padding inside the button */
+
+  color: white; /* Button text color */
+  text-decoration: none; /* Remove underline */
+  border-radius: 0.25rem; /* Rounded corners */
+  font-weight: 600; /* Bold text */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transition */
+}
+
+a.btn:hover {
+  background-color: #2b3137; /* Darker shade on hover */
+  transform: translateY(-2px); /* Slight lift effect */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 2rem; /* Smaller title on mobile */
+  }
+
+  p {
+    font-size: 0.9rem; /* Smaller text on mobile */
+  }
+}
+.author-pic img {
+  border-radius: 50%;
+  /* Ensures the image becomes round */
+  width: 150px; /* Adjust the width as needed */
+  height: 150px; /* Adjust the height as needed */
+  object-fit: cover; /* Maintain aspect ratio */
+}
+
+
+a.btn.btn-white-outline:hover {
+  color: blue; /* Color on hover */
+  display: inline-block; /* Button styling */
+  padding: 0.75rem 1.5rem; /* Padding inside the button */
+  background-color: #0072b1; /* Button background color */
+  color: white; /* Button text color */
+  text-decoration: none; /* Remove underline */
+  border-radius: 0.25rem; /* Rounded corners */
+  font-weight: 600; /* Bold text */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transition */
+
+}
+
+
+h1 {
+  font-weight: 700;
+}
+
+.card-title {
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+
+.card-title i {
+  margin-right: 10px;
+}
+
+.card {
+  border: none;
+  border-radius: 10px;
+}
+
+.progress {
+  height: 30px;
+  border-radius: 5px;
+}
+
+.progress-bar {
+  font-weight: 700;
+}
+
+.graphics-placeholder {
+  padding: 50px;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
